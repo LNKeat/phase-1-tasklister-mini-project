@@ -7,11 +7,14 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(100, 134, 100), rgb(5, 37, 5));
 }
 
 button {
-  font-size: 7px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #333;
+  color: white;
 }
 
 #main-content {
@@ -34,4 +37,9 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+#celebrate_image {
+  height: 100px;
+  width: 150px;
 }
